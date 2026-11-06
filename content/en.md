@@ -67,4 +67,4 @@ A tree conversion tool for Skeletal Nanite Assembly. Automates UDIM preparation 
 
 Considering Environment Artist, Procedural Environment Artist and Technical Environment Artist roles.
 
-[visnevvitaly717@gmail.com](mailto:visnevvitaly717@gmail.com) · [ArtStation](https://www.artstation.com/vitaliyvishnev) · [GitHub](https://github.com/VitalyVishnev) · [Telegram](https://t.me/snusprincess)
+[ArtStation](https://www.artstation.com/vitaliyvishnev) · [visnevvitaly717@gmail.com](mailto:visnevvitaly717@gmail.com) · [Telegram](https://t.me/snusprincess) · [GitHub](https://github.com/VitalyVishnev)

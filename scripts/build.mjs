@@ -41,7 +41,7 @@ for (const lang of ['ru', 'en']) {
 <header class="topbar"><a class="wordmark" href="#main" aria-label="${escape(name)}">VV</a>
 <nav aria-label="${labels[lang].navigation}">${nav}</nav>
 <div class="languages"><a href="ru.html" lang="ru" ${lang==='ru'?'aria-current="page"':''}>RU</a><span>/</span><a href="en.html" lang="en" ${lang==='en'?'aria-current="page"':''}>EN</a></div></header>
-${contacts ? `<div class="quick-contacts">${marked.parser([contacts])}</div>` : ''}
+${contacts ? `<div class="quick-contacts">${marked.parser([{ ...contacts, tokens: contacts.tokens.filter(token => token.type === 'link') }])}</div>` : ''}
 <main id="main"><article><header class="profile"><h1>${escape(name)}</h1>${marked.parser(profile)}
 <a class="download" href="vitaliy-vishnev-${lang}.pdf" download>${labels[lang].download} <span aria-hidden="true">↓</span></a></header>
 ${sections.map((s,i)=>`<section id="section-${i}" class="resume-section section-${i}"><h2>${escape(s.title)}</h2><div class="section-body">${marked.parser(s.tokens)}</div></section>`).join('\n')}

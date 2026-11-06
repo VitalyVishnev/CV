@@ -34,8 +34,7 @@ h1, h2, h3 { margin: 0; font-weight: 500; }
 .languages a[aria-current] { color: var(--ink); font-weight: 700; }
 .quick-contacts { padding-top: 18px; font-size: 13px; }
 .quick-contacts p { display: flex; flex-wrap: wrap; gap: 4px 26px; margin: 0; }
-.quick-contacts a { padding: 6px 0; color: var(--muted); text-decoration: none; overflow-wrap: anywhere; }
-.quick-contacts a[href^="mailto:"] { color: var(--ink); }
+.quick-contacts a { padding: 6px 0; color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
 .quick-contacts a:hover, .quick-contacts a:focus-visible { color: var(--ink); text-decoration: underline; text-underline-offset: 5px; }
 .profile { padding: 48px 0 38px; }
 h1 { font-size: clamp(36px, 5vw, 62px); line-height: 1.1; letter-spacing: -.045em; margin-bottom: 20px; font-weight: 600; }

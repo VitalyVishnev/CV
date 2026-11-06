@@ -4,7 +4,7 @@
 
 Yekaterinburg, UTC+5 · Open to remote work and relocation discussions
 
-Environment artist with two years of professional experience, focused on procedural workflows that combine artistic control with gameplay requirements.
+I create natural environments in Houdini and Unreal Engine: landscapes, rocks and materials. I develop procedural workflows and PCG tools for level artists.
 
 ## Experience
 
